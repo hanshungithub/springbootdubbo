@@ -1,0 +1,7 @@
+dubbo:
+  application:
+    name: provider-ticket
+  registry:
+    address: zookeeper://192.168.48.130:2181
+  scan:
+    base-packages: cn.hassan.provider.service
